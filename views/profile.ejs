@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/profile.css" />
+    </head>
+    <body>
+        
+        
+        <form id="update-form" method="post" action="/profile">
+            <div class="profile-boxmain">
+            <h1>MY PROFILE</h1>
+            </div>  
+            <div class="profile-box">
+             <div class="textbox" >
+             <input type="text" name="username" placeholder="username"   value="<%=person[0].username%>"></br></br>
+            </div>
+            <div class="textbox">
+            <input type="text" name="name" placeholder="name"  value="<%=person[0].name%>"></br></br>
+            </div>
+             <div class="textbox">
+            <input type="password" name="pass" placeholder="password" value="<%=person[0].password%>"></br></br>
+            </div>
+            </div>  
+            <div class="profile-box1">
+            <div class="textbox">
+            <input type="email" name="email" placeholder="email" value="<%=person[0].email%>"></br></br>
+            </div>
+            </div>
+        
+
+            <div class="btn1" >
+            <input class="btn" type="submit" name='submit' value="submit"></br></br>
+            </div>
+        
+        
+        
+        </form>
+    
+
+
+    </body>
+</html>

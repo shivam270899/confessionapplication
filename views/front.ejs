@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/front.css" />
+        <title><%=person%></title>
+    </head>
+    <body>
+        <div class="front-box">
+            <h1>Front Page </h1>
+            <div class="paragraph" >
+       
+
+        
+
+                <a href="http://localhost:1000/login" style="color: white; padding-right: 50px;">Login</a>
+                <a href="http://localhost:1000/register"style="color: white;padding-left: 80px;">Register</a>
+        
+         
+        
+        </div>
+        <form id='front' method='post' action='/front'>
+            <div class="textbox" >
+                <i class="fa fa-comment-alt" aria-hidden="true"></i>
+            <lable for="anonymous" > Ask me anything you like anonymously</lable><br><br>
+            <textarea name="text" id="text"  rows="6" cols="50">Text...</textarea><br><br>
+        </div>
+        <div class="textbox">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" name="email" placeholder="Email"><br><br>
+        </div>
+            <input type="hidden" name="username" value="<%=person%>" />
+            <input class="btn" type="submit"  name='submit' value="send">
+        </div>
+        </form>
+    
+    
+    </body>
+</html>
