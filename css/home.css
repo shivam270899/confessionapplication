@@ -1,0 +1,38 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(/img/bck.jpg) no-repeat;
+    background-size: cover;
+}
+.link{
+    padding-top: 60px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: whitesmoke;
+    text-decoration: underline;
+    
+    
+}
+ 
+
+.profile{
+    padding-top: 60px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: whitesmoke;
+    text-decoration: underline;
+    
+    
+}
+
+.inbox{
+    padding-top: 60px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: whitesmoke;
+    text-decoration: underline;
+    
+}
+
